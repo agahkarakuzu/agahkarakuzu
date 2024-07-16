@@ -17,7 +17,7 @@ I am the lead developer of https://neurolibre.org, an open-source platform for p
 * GitHub actions development
 * Academic publishing workflows  
 
-But I am not your typical introvert developer who is decoupled from the substance of the development. The current state of the publishing industry keeps me up at night. I am firmly against greasing the cogs of the papermills to gain an edge in the careerist game of academic thrones. 
+But I am not your typical introvert developer who is decoupled from the substance of the development. The current state of the publishing industry keeps me up at night. I am firmly against greasing the cogs of the papermills to gain an edge in the careerist _game of academic thrones_. While everyone imagines this realm to be filled with Tyrion Lannisters, in reality, it's mostly Petyr Baelishes, finding their way to the top. I'd rather be the Hodor, losing my mind holding the door to keep bad science out.
 
 > [!IMPORTANT]  
 > No, that was not a typo, I do have two PhDs. In addition to qMRI, I have a PhD degree in musculoskeletal biomechanics, with a special focus on the assessment of in-vivo mechanical characteristics (e.g., strain in the fiber direction) of human skeletal muscle. Here's a [publication](https://www.sciencedirect.com/science/article/abs/pii/S1751616123000346) in the Journal of Biomechanics. 
