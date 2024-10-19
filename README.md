@@ -35,16 +35,15 @@ I have experience developing vendor-neutral sequences using both [RTHawk](https:
    
 3. **Reproducibility - End-to-end Workflows that are Portable**
 
-Vendor-neutral acquisitions necessitate implementing image reconstruction and post-processing methods in a portable manner to ensure multi-center compatibility. However, achieving this goal poses challenges in maintaining both reproducibility and user-friendliness, particularly when navigating a wide array of open-source toolboxes.
+Navigating a diverse range of open-source toolboxes for image reconstruction, as well as pre- and post-processing is needed to facilitate the practical use of vendor-neutral acquisitions.
 
 <details>
   <summary>See further context</summary>
-  <i>Clinical MRI scanners commonly used in research are not designed as precise measurement devices. However, it is possible to relate raw MRI signals to specific physical properties by estimating numerical parameters from a set of MR images. Since such "quantitative" approach is not the intended use of commercially available scanners, relying on vendor-provided acquisition software (i.e., pulse sequences) can significantly compromise the reliability of these measurements, undermining the clinical value of imaging biomarkers.</i>
+  <i>The number of open-source software toolboxes grows in proportion to the complexity of image reconstruction algorithms and the model implementations required for parameter estimation. Most of these toolboxes are developed by independent labs with varying research interests. Unlike industry-grade software, which adheres to established standards for interoperability with other software, many of these open-source toolboxes lack standardized protocols, making integration and consistency challenging across different platforms and applications.</i>
 </details>
 
-Multicenter MRI data becomes vulnerable to overfitting when the variability caused by differences between scanners is captured by (deep learning, biophysical, or signal representation) models.
+------------------
    
-
 4. **Interoperability - An International qMRI Data Standard** 
 
 
