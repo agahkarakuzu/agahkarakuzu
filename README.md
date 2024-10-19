@@ -1,9 +1,23 @@
-### Agah Karakuzu, PhD, PhD
+### Agah Karakuzu, PhD
 
-I am currently a Postdoctoral Researcher at NeuroPoly Lab, as well as a Junior Fellow of the International Society of Magnetic Resonance in Medicine (https://ismrm.org).
+`MRI Physics` `Medical imaging` `Open-source software` `Data standards` `Reproducible science` `Workflows` `Biomechanics`
 
-My main research focus is bringing [quantitative MRI (qMRI) applications under one umbrella](https://qmrlab.org) through [data standardization](https://bids-specification.readthedocs.io/), [vendor-neutral acquisitions](https://github.com/qmrlab/pulse_sequences), [fully transparent & reproducible workflows](https://github.com/qmrlab/qmrflow) and community building. To achieve this, I gained experience in: 
-* Vendor-neutral pulse sequence development in RTHawk and Pulseq
+I am a Postdoctoral Research Associate at NeuroPoly Lab, and a Junior Fellow of the International Society of Magnetic Resonance in Medicine (https://ismrm.org). My current research focuses on developing end-to-end reproducible measurement workflows for advanced quantitative MRI applications in neuroimaging. This novel approach necessitates addressing the issue of reproducibility on multiple fronts: 
+
+1. **Standardized MRI acqusitions (Hardware integration)**
+   
+`MRI Physics` `Medical Imaging` `Open-source Software`
+
+_Clinical MRI scanners commonly used in research are not designed as precise measurement devices. Achieving accurate and repeatable measurements requires more than relying on the vendor-provided acquisition software (i.e., pulse sequences) supplied by manufacturers._
+
+
+
+
+3. 
+
+[quantitative MRI (qMRI) applications under one umbrella](https://qmrlab.org) through [data standardization](https://bids-specification.readthedocs.io/), [vendor-neutral acquisitions](https://github.com/qmrlab/pulse_sequences), [fully transparent & reproducible workflows](https://github.com/qmrlab/qmrflow) and community building. To achieve this, I gained experience in: 
+
+* Vendor-neutral pulse sequence development in RTHawk (by Vista AI) and Pulseq
 * Container-mediated and data driven Nextflow pipelines
 * Open-source image reconstruction
 * Python/MATLAB/C++
@@ -17,13 +31,9 @@ I am the lead developer of https://neurolibre.org, an open-source platform for p
 * GitHub actions development
 * Academic publishing workflows  
 
-But I am not your typical introvert developer who is decoupled from the substance of the development. The current state of the publishing industry keeps me up at night. I am firmly against greasing the cogs of the papermills to gain an edge in the careerist _game of academic thrones_. While everyone imagines this realm to be filled with Tyrion Lannisters, in reality, it's mostly Petyr Baelishes, finding their way to the top. I'd rather be the Hodor, losing my mind holding the door to keep bad science out.
 
-> [!IMPORTANT]  
-> No, that was not a typo, I do have two PhDs. In addition to qMRI, I have a PhD degree in musculoskeletal biomechanics, with a special focus on the assessment of in-vivo mechanical characteristics (e.g., strain in the fiber direction) of human skeletal muscle. Here's a [publication](https://www.sciencedirect.com/science/article/abs/pii/S1751616123000346) in the Journal of Biomechanics. 
+For more information re publications, talks, awards: https://agahkarakuzu.github.io 
 
-For more information re publications, talks, awards and all that jazz, you can visit: https://agahkarakuzu.github.io or stalk my [Google Scholar](https://scholar.google.ca/citations?user=tVvzWVMAAAAJ&hl=en&oi=ao) profile to judge my number of organic citations and h-index. Rest assured, I didn't game the system to inflate them. And if you don't want to hire me because you think that those numbers are low, well, you're not the employer I want to work with anyway.
 
-My motivation for open science is born from a combination of open-source development (BrainHack, MRathon, OpenMR) and science communication (MRM Highlights, OHBM Blog, ISMRM’s MRPulse). But don't be fooled, I don't use "open-source" as a buzzword to carve out a niche career for myself; I thrive on proving it can solve real technical problems.
-
-⛷☕️🎸🎨😸📚🎙➕👨‍💻🧲🧠
+[Google Scholar](https://scholar.google.ca/citations?user=tVvzWVMAAAAJ&hl=en&oi=ao) 
+[ResearchGate](https://www.researchgate.net/profile/Agah-Karakuzu)
