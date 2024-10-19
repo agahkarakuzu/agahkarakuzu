@@ -1,27 +1,37 @@
-### Agah Karakuzu, PhD
+### Agah Karakuzu | Biomedical Engineer, Ph.D. 
 
-`MRI Physics` `Medical imaging` `Open-source software` `Data standards` `Reproducible science` `Workflows` `Biomechanics`
+![](https://img.shields.io/badge/MRI%20Physics-8A2BE2) ![](https://img.shields.io/badge/Medical%20Imaging-33efff) ![](https://img.shields.io/badge/qMRI%20Metrology-e20c4e) ![](https://img.shields.io/badge/Open–source%20Software-ff5d33) ![](https://img.shields.io/badge/Data%20Standards-3389ff) ![](https://img.shields.io/badge/Reproducible%20Science-10c34e) ![](https://img.shields.io/badge/Workflows-c31084) ![](https://img.shields.io/badge/Biomechanics-cfe20c)
 
-I am a Postdoctoral Research Associate at NeuroPoly Lab, and a Junior Fellow of the International Society of Magnetic Resonance in Medicine (https://ismrm.org). My current research focuses on developing end-to-end reproducible measurement workflows for advanced quantitative MRI (qMRI) applications in neuroimaging. This novel approach necessitates addressing the issue of reproducibility on multiple fronts: 
+I am a Postdoctoral Research Associate at [NeuroPoly Lab](https://neuro.polymtl.ca) at [Polytechnique Montreal](https://www.polymtl.ca/) and a Junior Fellow of the [ISMRM](https://ismrm.org). I have a background in MRI physics, software development, biomedical applications of signal theory, and musculoskeletal biomechanics. 
 
-1. **Standardized MRI acqusitions (Hardware Integration)**
-   
-`MRI Physics` `Medical Imaging` `Open-source Software`
+My current research focuses on developing end-to-end measurement workflows for advanced quantitative MRI (qMRI) applications in neuroimaging, including multiparametric mapping and biophysics-driven microstructural imaging. My primary motivation is to elevate qMRI to a metrological standard, enabling the quantification of measurement uncertainty within a reproducible multi-vendor framework. This rigorous approach necessitates addressing the issue of reproducibility through a multistep process, with each following research objective contributing to a comprehensive solution:
 
-_Clinical MRI scanners commonly used in research are not designed as precise measurement devices. Achieving accurate and repeatable measurements requires more than relying on the vendor-provided acquisition software (i.e., pulse sequences) supplied by manufacturers._
+1. **Standardized MRI acqusitions (Hardware Integration)** 
+<details>
+  <summary>Context</summary>
+  <i>Clinical MRI scanners commonly used in research are not designed as precise measurement devices. However, it is possible to relate raw MRI signals to specific physical properties by estimating numerical parameters from a set of MR images. Since this "quantitative" approach is not the intended use of commercially available scanners, relying on vendor-provided acquisition software (i.e., pulse sequences) can significantly compromise the reliability of these measurements.</i> 
+</details>
 
 Vendor-neutral pulse sequence development is an emerging approach that provides an alternative to relying on vendor-specific software and acquisition control. I am interested in applying this approach to standardize MRI signal encoding for quantitative MRI (qMRI) measurements, ensuring reliability across scanners from different vendors (e.g., Siemens, GE, Philips, and Canon).
 
 I have experience developing vendor-neutral sequences using both [RTHawk](https://vista.ai/products/research-rthawk/) (JavaScript) and [Pulseq](https://pulseq.github.io) (MATLAB, Python) platforms.
 
+![](https://img.shields.io/badge/-black?&logo=javascript)![](https://img.shields.io/badge/-black?&logo=python)![](https://img.shields.io/badge/-black?&logo=octave)
+
 * [Relevant article in MRM](https://doi.org/10.1002/mrm.29292) 
-    * First empirical evidence supporting the use of vendor-neutral acquisitions in reducing measurement variability between scanners from different vendors.
+    * First empirical evidence supporting the use of vendor-neutral acquisitions to reduce measurement variability across scanners from different vendors.
+
+
+
+
+
+
+
 
 3. 
 
 [quantitative MRI (qMRI) applications under one umbrella](https://qmrlab.org) through [data standardization](https://bids-specification.readthedocs.io/), [vendor-neutral acquisitions](https://github.com/qmrlab/pulse_sequences), [fully transparent & reproducible workflows](https://github.com/qmrlab/qmrflow) and community building. To achieve this, I gained experience in: 
 
-* Vendor-neutral pulse sequence development in RTHawk (by Vista AI) and Pulseq
 * Container-mediated and data driven Nextflow pipelines
 * Open-source image reconstruction
 * Python/MATLAB/C++
