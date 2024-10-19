@@ -7,19 +7,31 @@ I am a Postdoctoral Research Associate at [NeuroPoly Lab](https://neuro.polymtl.
 My current research focuses on developing end-to-end measurement workflows for advanced quantitative MRI (qMRI) applications in neuroimaging, including multiparametric mapping and biophysics-driven microstructural imaging. _My primary motivation is to elevate qMRI to a metrological standard, enabling the quantification of measurement uncertainty within a reproducible multi-vendor framework._ This rigorous aim necessitates addressing the issue of reproducibility through a multistep process, with each following research objective contributing to a comprehensive solution:
 
 1. **Standardized MRI acqusitions – Hardware Integration** 
+
+Multicenter MRI data becomes vulnerable to overfitting when the variability caused by differences between scanners is captured by (deep learning, biophysical, or signal representation) models.
+
 <details>
-  <summary>Context</summary>
-  <i>Clinical MRI scanners commonly used in research are not designed as precise measurement devices. However, it is possible to relate raw MRI signals to specific physical properties by estimating numerical parameters from a set of MR images. Since this "quantitative" approach is not the intended use of commercially available scanners, relying on vendor-provided acquisition software (i.e., pulse sequences) can significantly compromise the reliability of these measurements.</i> 
+  <summary>See further context</summary>
+  <i>Clinical MRI scanners commonly used in research are not designed as precise measurement devices. However, it is possible to relate raw MRI signals to specific physical properties by estimating numerical parameters from a set of MR images. Since such "quantitative" approach is not the intended use of commercially available scanners, relying on vendor-provided acquisition software (i.e., pulse sequences) can significantly compromise the reliability of these measurements, undermining the clinical value of imaging biomarkers.</i>
 </details>
 
-Vendor-neutral pulse sequence development is an emerging approach that provides an alternative to relying on vendor-specific software and acquisition control. I am interested in applying this approach to standardize MRI signal encoding qMRI applications, minimizing non-biological variability at the signal source of the scanners from different vendors (e.g., Siemens, GE, Philips, and Canon).
+Vendor-neutral pulse sequence development is an emerging open-source approach that offers an alternative to relying on proprietary vendor-native sequences and acquisition controllers. I am interested in applying this approach to standardize acquisitions for various MRI applications (primarily qMRI) with the goal of minimizing non-biological variability at the signal source across scanners from different vendors (e.g., Siemens, GE, Philips, and Canon).
 
 I have experience developing vendor-neutral sequences using both [RTHawk](https://vista.ai/products/research-rthawk/) (JavaScript) and [Pulseq](https://pulseq.github.io) (MATLAB, Python) platforms.
 
-![](https://img.shields.io/badge/-black?&logo=javascript)![](https://img.shields.io/badge/-black?&logo=python)![](https://img.shields.io/badge/-black?&logo=octave)
+ 
 
 * [Relevant article in MRM](https://doi.org/10.1002/mrm.29292) 
-    * First empirical evidence supporting the use of vendor-neutral acquisitions to reduce measurement variability across scanners from different vendors.
+    * **Significance:** First empirical evidence supporting the use of vendor-neutral acquisitions to reduce measurement variability across scanners from different vendors.
+* GitHub Repositories
+    * ![](https://img.shields.io/badge/-e20c4e?&logo=javascript&logoColor=white) [Magnetization transfer and T1 mapping sequence](https://github.com/qmrlab/mt_sat)
+    * ![](https://img.shields.io/badge/-e20c4e?&logo=javascript&logoColor=white) [AFI B1 mapping sequence](https://github.com/qmrlab/b1_afi) 
+    * ![](https://img.shields.io/badge/-e20c4e?&logo=javascript&logoColor=white) [PHYSICAL calibration sequence](https://github.com/qmrlab/physical)
+    * ![](https://img.shields.io/badge/-e20c4e?&logo=octave&logoColor=white) [MP2RAGE pulseq](https://github.com/agahkarakuzu/pulseq-mp2rage)
+* Other Resources
+    * [Interactive publication with live compute](https://qmrlab.org/VENUS/)
+    * [Dataset](https://osf.io/5n3cu/) 
+  
 
 
 
