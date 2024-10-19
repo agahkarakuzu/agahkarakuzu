@@ -6,7 +6,7 @@ I am a Postdoctoral Research Associate at [NeuroPoly Lab](https://neuro.polymtl.
 
 My current research focuses on developing end-to-end measurement workflows for advanced quantitative MRI (qMRI) applications in neuroimaging, including multiparametric mapping and biophysics-driven microstructural imaging. _My primary motivation is to elevate qMRI to a metrological standard, enabling the quantification of measurement uncertainty within a reproducible multi-vendor framework._ 
 
-This rigorous aim necessitates addressing the issue of reproducibility through a multistep process, with each following research objective contributing to a comprehensive solution. 🧵👇
+This rigorous aim necessitates addressing the issue of reproducibility through a layered process, with each following research objective contributing to a comprehensive solution.
 
 ### 1. **Hardware Integration - Standardized MRI Acqusitions** 
 
@@ -19,7 +19,7 @@ Multicenter MRI data becomes vulnerable to overfitting when the variability caus
 
 Vendor-neutral pulse sequence development is an emerging open-source approach that offers an alternative to relying on proprietary vendor-native sequences and acquisition controllers. I am interested in applying this approach to standardize acquisitions for various MRI applications (primarily qMRI) with the goal of minimizing non-biological variability at the signal source across scanners from different vendors (e.g., `Siemens`, `GE`, `Philips`, and `Canon`).
 
-I have experience developing vendor-neutral sequences using both [RTHawk](https://vista.ai/products/research-rthawk/) (JavaScript) and [Pulseq](https://pulseq.github.io) (MATLAB, Python) platforms.
+I have experience developing vendor-neutral sequences using both [RTHawk](https://vista.ai/products/research-rthawk/) (`JavaScript`, `C++`) and [Pulseq](https://pulseq.github.io) (`MATLAB`, `Python`) platforms.
 
 #### [🔗](https://doi.org/10.1002/mrm.29292) Relevant article in MRM
 
@@ -60,8 +60,9 @@ I have experience developing vendor-neutral sequences using both [RTHawk](https:
           </li>
       </ul>
   </details>
-  
-### 2. **Signals and Models - Standardized Parameter Estimation**
+<hr>
+
+### 2. **Signals and Models - Unified Parameter Estimation Implementations**
 
 Whether based on MRI signal representations (e.g., Bloch equation that governs a multi-echo spin-echo experiment) or biophysical models (e.g., restricted intracellular diffusion), most qMRI parameter estimation and correction methods are developed and maintained in-house.
 
@@ -85,6 +86,10 @@ To address this challenge, I developed [qMRLab](https://qmrlab.org), an open-sou
               <img src="https://img.shields.io/badge/-ff5d33?&logo=octave&logoColor=white" alt="JavaScript logo">
               <a href="https://github.com/qmrlab/qMRLab">qMRLab main codebase</a>
           </li>
+            <li>
+              <img src="https://img.shields.io/badge/-ff5d33?&logo=github&logoColor=white" alt="JavaScript logo">
+              <a href="https://github.com/qmrlab">qMRLab GitHub Organization</a>
+          </li>
       </ul>
   </details>
   <details>
@@ -101,8 +106,9 @@ To address this challenge, I developed [qMRLab](https://qmrlab.org), an open-sou
           </li>
       </ul>
   </details>
-   
-3. **Reproducibility - End-to-end Workflows that are Portable**
+<hr>
+
+### 3. **Reproducibility - End-to-end Workflows that are Portable**
 
 Navigating a diverse range of open-source toolboxes for image reconstruction, as well as pre- and post-processing is needed to facilitate the practical use of vendor-neutral acquisitions.
 
@@ -111,31 +117,10 @@ Navigating a diverse range of open-source toolboxes for image reconstruction, as
   <i>The number of open-source software toolboxes grows in proportion to the complexity of image reconstruction algorithms and the model implementations required for parameter estimation. Most of these toolboxes are developed by independent labs with varying research interests. Unlike industry-grade software, which adheres to established standards for interoperability with other software, many of these open-source toolboxes lack standardized protocols, making integration and consistency challenging across different platforms and applications.</i>
 </details>
 
-* [Relevant article in MRM](https://doi.org/10.1002/mrm.29292) 
-    * **Significance:** First empirical evidence supporting the use of vendor-neutral acquisitions to reduce measurement variability across scanners from different vendors.
-* GitHub Repositories
-    * ![](https://img.shields.io/badge/-e20c4e?&logo=javascript&logoColor=white) [Magnetization transfer and T1 mapping sequence](https://github.com/qmrlab/mt_sat)
-    * ![](https://img.shields.io/badge/-e20c4e?&logo=javascript&logoColor=white) [AFI B1 mapping sequence](https://github.com/qmrlab/b1_afi) 
-    * ![](https://img.shields.io/badge/-e20c4e?&logo=javascript&logoColor=white) [PHYSICAL calibration sequence](https://github.com/qmrlab/physical)
-    * ![](https://img.shields.io/badge/-e20c4e?&logo=octave&logoColor=white) [MP2RAGE pulseq](https://github.com/agahkarakuzu/pulseq-mp2rage)
-* Other Resources
-    * [Interactive publication with live compute](https://qmrlab.org/VENUS/)
-    * [Dataset](https://osf.io/5n3cu/) 
+These workflows, written in DSL2, are designed so that each step producing a derivative is defined as an independent process, mapped to a corresponding container provided by qMRFlow. By adhering to data standards for both k-space and image data, and leveraging Nextflow's platform-agnostic executors, these workflows can be seamlessly deployed across cloud environments, high-performance computing (HPC) systems at scale, or workstations on any operating system at the scanner site.
    
 4. **Interoperability - An International qMRI Data Standard** 
 
-
-
-
-
-
-4. 
-
-[quantitative MRI (qMRI) applications under one umbrella](https://qmrlab.org) through [data standardization](https://bids-specification.readthedocs.io/), [vendor-neutral acquisitions](https://github.com/qmrlab/pulse_sequences), [fully transparent & reproducible workflows](https://github.com/qmrlab/qmrflow) and community building. To achieve this, I gained experience in: 
-
-* Container-mediated and data driven Nextflow pipelines
-* Open-source image reconstruction
-* Python/MATLAB/C++
   
 I am the lead developer of https://neurolibre.org, an open-source platform for publishing reproducible preprints written in [MyST Markdown](https://mystmd.org/) and [Jupyter Book](https://jupyterbook.org/en/stable/intro.html). It is quite an involved project which helped me gain development experience with the following tools: 
 * Kubernetes on baremetal (to host BinderHub)
