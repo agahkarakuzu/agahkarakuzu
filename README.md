@@ -6,13 +6,13 @@ I am a Postdoctoral Research Associate at [NeuroPoly Lab](https://neuro.polymtl.
 
 My current research focuses on developing end-to-end measurement workflows for advanced quantitative MRI (qMRI) applications in neuroimaging, including multiparametric mapping and biophysics-driven microstructural imaging. _My primary motivation is to elevate qMRI to a metrological standard, enabling the quantification of measurement uncertainty within a reproducible multi-vendor framework._ This rigorous aim necessitates addressing the issue of reproducibility through a multistep process, with each following research objective contributing to a comprehensive solution:
 
-1. **Standardized MRI acqusitions (Hardware Integration)** 
+1. **Standardized MRI acqusitions – Hardware Integration** 
 <details>
   <summary>Context</summary>
   <i>Clinical MRI scanners commonly used in research are not designed as precise measurement devices. However, it is possible to relate raw MRI signals to specific physical properties by estimating numerical parameters from a set of MR images. Since this "quantitative" approach is not the intended use of commercially available scanners, relying on vendor-provided acquisition software (i.e., pulse sequences) can significantly compromise the reliability of these measurements.</i> 
 </details>
 
-Vendor-neutral pulse sequence development is an emerging approach that provides an alternative to relying on vendor-specific software and acquisition control. I am interested in applying this approach to standardize MRI signal encoding for quantitative MRI (qMRI) measurements, ensuring reliability across scanners from different vendors (e.g., Siemens, GE, Philips, and Canon).
+Vendor-neutral pulse sequence development is an emerging approach that provides an alternative to relying on vendor-specific software and acquisition control. I am interested in applying this approach to standardize MRI signal encoding qMRI applications, minimizing non-biological variability at the signal source of the scanners from different vendors (e.g., Siemens, GE, Philips, and Canon).
 
 I have experience developing vendor-neutral sequences using both [RTHawk](https://vista.ai/products/research-rthawk/) (JavaScript) and [Pulseq](https://pulseq.github.io) (MATLAB, Python) platforms.
 
