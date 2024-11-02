@@ -8,7 +8,8 @@ My current research focuses on developing end-to-end measurement workflows for a
 
 This rigorous aim necessitates addressing the issue of reproducibility through a layered process, with each following research objective contributing to a comprehensive solution.
 
-### 1. **Hardware Integration - Standardized MRI Acqusitions** 
+<details>
+  <summary>1. <b>Hardware Integration - Standardized MRI Acquisitions</b></summary>
 
 Multicenter MRI data becomes vulnerable to overfitting when the variability caused by differences between scanners is captured by (deep learning, biophysical, or signal representation) models.
 
@@ -60,9 +61,9 @@ I have experience developing vendor-neutral sequences using both [RTHawk](https:
           </li>
       </ul>
   </details>
-<hr>
-
-### 2. **Signals and Models - Unified Parameter Estimation Implementations**
+</details>
+<details>
+  <summary>2. <b>Signals and Models - Unified Parameter Estimation Implementations</b></summary>
 
 Whether based on MRI signal representations (e.g., Bloch equation that governs a multi-echo spin-echo experiment) or biophysical models (e.g., restricted intracellular diffusion), most qMRI parameter estimation and correction methods are developed and maintained in-house.
 
@@ -106,9 +107,10 @@ To address this challenge, I developed [qMRLab](https://qmrlab.org), an open-sou
           </li>
       </ul>
   </details>
-<hr>
+</details>
 
-### 3. **Reproducibility - End-to-end Workflows that are Portable**
+<details>
+  <summary>3. <b>Reproducibility - End-to-end Workflows that are Portable</b></summary>
 
 Navigating a diverse range of open-source toolboxes for image reconstruction, as well as pre- and post-processing is needed to facilitate the practical use of vendor-neutral acquisitions.
 
@@ -118,10 +120,11 @@ Navigating a diverse range of open-source toolboxes for image reconstruction, as
 </details>
 
 These workflows, written in DSL2, are designed so that each step producing a derivative is defined as an independent process, mapped to a corresponding container provided by qMRFlow. By adhering to data standards for both k-space and image data, and leveraging Nextflow's platform-agnostic executors, these workflows can be seamlessly deployed across cloud environments, high-performance computing (HPC) systems at scale, or workstations on any operating system at the scanner site.
-   
-4. **Interoperability - An International qMRI Data Standard** 
+</details>
+       
+<details>
+  <summary><b>4. Interoperability - An International qMRI Data Standard</b></summary>
 
-  
 I am the lead developer of https://neurolibre.org, an open-source platform for publishing reproducible preprints written in [MyST Markdown](https://mystmd.org/) and [Jupyter Book](https://jupyterbook.org/en/stable/intro.html). It is quite an involved project which helped me gain development experience with the following tools: 
 * Kubernetes on baremetal (to host BinderHub)
 * Ruby on Rails (OpenJournals editorial manager) 
@@ -131,9 +134,9 @@ I am the lead developer of https://neurolibre.org, an open-source platform for p
 * GitHub actions development
 * Academic publishing workflows  
 
-
 For more information re publications, talks, awards: https://agahkarakuzu.github.io 
-
 
 [Google Scholar](https://scholar.google.ca/citations?user=tVvzWVMAAAAJ&hl=en&oi=ao) 
 [ResearchGate](https://www.researchgate.net/profile/Agah-Karakuzu)
+
+</details>
